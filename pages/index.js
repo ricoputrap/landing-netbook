@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Hero from '../components/organisms/Hero'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        HELLO
+        <Hero />
       </main>
 
       <footer>
