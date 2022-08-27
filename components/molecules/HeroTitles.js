@@ -1,12 +1,13 @@
-import { Button, Flex, Heading, Stack, Text } from '@chakra-ui/react'
+import { Heading, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
+import { ButtonTertiary } from '../atoms/Buttons'
 
 const HeroTitles = () => {
   return (
     <Stack rowGap="22px">
-      <Button variant="solid" width="fit-content">
+      <ButtonTertiary width="fit-content">
         Netbook community
-      </Button>
+      </ButtonTertiary>
 
       <Heading as="h1" size={{ base: "2xl", sm: "3xl" }}>
         Your Solutions For Community!
