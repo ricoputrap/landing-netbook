@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/organisms/Hero'
+import Reason from '../components/organisms/Reason'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       <main>
         <Hero />
+        <Reason />
       </main>
 
       <footer>
